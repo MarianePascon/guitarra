@@ -1,0 +1,179 @@
+*{
+
+  margin: 0;
+}
+header{
+    margin: 0 auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li{
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+.botao a{
+    text-decoration: none;
+}
+
+.botao2{
+    background-color: white;
+    color: #66006F;
+    padding: 8px;
+}
+
+.banner{
+    background-image: url('img/banner.png');
+    background-size: cover;
+    height: 768px;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.esquerda h1{
+    font-size: 52px;
+    padding-top: 120px;
+}
+
+.esquerda p{
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+
+.esquerda span{
+    background-color: white;
+    width: 237px;
+    height: 70px;
+    color:#66006F;
+    font-size: 16px;
+    padding: 23px 73px;
+}
+
+.pt2e3{
+    background-color: #e5e5e5;
+    text-align: center;
+    padding-bottom: 130px;
+    background: linear-gradient(112.9deg, rgba(128, 41, 125, 0.37) 0.908%, rgba(0, 0, 0, 0.42) 165.36%);
+}
+
+.pt2e3 h1{
+    color: #66006F;
+    font-size: 48px;
+    padding-top: 115px;
+}
+
+.pt2e3 p{
+    font-size: 18px;
+}
+
+.pt{
+    display: flex;
+    justify-content: center;
+    padding: 15px 90px;
+}
+
+.explorar{
+    background-color: white;
+    padding: 20px 20px;
+    margin: 0 20px;
+    border-radius: 5px;
+
+}
+
+.explorar h2{
+    font-size: 24px;
+    color: #66006F;
+}
+
+.explorar p{
+    font-size: 14px;
+}
+.produto{
+    margin: 0 20px;
+    background-color: white;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.produto h4{
+    font-size: 24px;
+}
+
+.produto p{
+    font-size: 14px;
+}
+
+.produto span{
+    font-size: 14px;
+    color: red;
+}
+
+.cadastro{
+    background-image: url('img/guitarra.png');
+    background-size: cover;
+    text-align: center;
+    align-items: center;
+    padding: 150px;
+}
+
+.cadastro div{
+    background-color: white;
+    padding: 50px 50px;
+}
+
+.cadastro div h5{
+    font-size: 40px;
+    color: #66006F;
+    background-color: white;
+}
+
+.cadastro div input{
+    width: 485px;
+    height: 75px;
+    background-color: #c4c4c4;
+    color: #717171;
+    border: none;
+
+}
+
+.cadastro div button{
+    width: 485px;
+    height: 75px;
+    background-color: #66006F;
+    color: white;
+    border: none;
+    font-size: 24px;
+}
+
+footer{
+    background-color: black;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 110px;
+    padding-bottom: 65px;
+}
+h6{
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    padding-bottom: 65px;
+}
+
+.ver{
+    padding-top: 140px;
+}
